@@ -713,6 +713,7 @@ public class Activity extends ContextThemeWrapper
         Window.OnWindowDismissedCallback, WindowControllerCallback,
         AutofillManager.AutofillClient {
     private static final String TAG = "Activity";
+	   private static final String TAG_test = "Activity_test";
     private static final boolean DEBUG_LIFECYCLE = false;
 
     /** Standard activity result: operation canceled. */
